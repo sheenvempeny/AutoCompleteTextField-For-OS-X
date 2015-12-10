@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30088D4E1C180E41002D4C85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30088D4D1C180E41002D4C85 /* AppDelegate.m */; };
+		30088D511C180E41002D4C85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30088D501C180E41002D4C85 /* main.m */; };
+		30088D531C180E41002D4C85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30088D521C180E41002D4C85 /* Assets.xcassets */; };
+		30088D561C180E41002D4C85 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30088D541C180E41002D4C85 /* MainMenu.xib */; };
+		30088D5F1C180E6D002D4C85 /* AutoCompleter.m in Sources */ = {isa = PBXBuildFile; fileRef = 30088D5E1C180E6D002D4C85 /* AutoCompleter.m */; settings = {ASSET_TAGS = (); }; };
+		30088D731C18427D002D4C85 /* AutoCompleteTextField.mm in Sources */ = {isa = PBXBuildFile; fileRef = 30088D721C18427D002D4C85 /* AutoCompleteTextField.mm */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30088D491C180E41002D4C85 /* AutoComplete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoComplete.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30088D4C1C180E41002D4C85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30088D4D1C180E41002D4C85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30088D501C180E41002D4C85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30088D521C180E41002D4C85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30088D551C180E41002D4C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		30088D571C180E41002D4C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30088D5D1C180E6D002D4C85 /* AutoCompleter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoCompleter.h; sourceTree = "<group>"; };
+		30088D5E1C180E6D002D4C85 /* AutoCompleter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoCompleter.m; sourceTree = "<group>"; };
+		30088D711C18427D002D4C85 /* AutoCompleteTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoCompleteTextField.h; sourceTree = "<group>"; };
+		30088D721C18427D002D4C85 /* AutoCompleteTextField.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AutoCompleteTextField.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30088D461C180E41002D4C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30088D401C180E41002D4C85 = {
+			isa = PBXGroup;
+			children = (
+				30088D4B1C180E41002D4C85 /* AutoComplete */,
+				30088D4A1C180E41002D4C85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30088D4A1C180E41002D4C85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30088D491C180E41002D4C85 /* AutoComplete.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30088D4B1C180E41002D4C85 /* AutoComplete */ = {
+			isa = PBXGroup;
+			children = (
+				30088D4C1C180E41002D4C85 /* AppDelegate.h */,
+				30088D4D1C180E41002D4C85 /* AppDelegate.m */,
+				30088D521C180E41002D4C85 /* Assets.xcassets */,
+				30088D541C180E41002D4C85 /* MainMenu.xib */,
+				30088D571C180E41002D4C85 /* Info.plist */,
+				30088D4F1C180E41002D4C85 /* Supporting Files */,
+				30088D5D1C180E6D002D4C85 /* AutoCompleter.h */,
+				30088D5E1C180E6D002D4C85 /* AutoCompleter.m */,
+				30088D711C18427D002D4C85 /* AutoCompleteTextField.h */,
+				30088D721C18427D002D4C85 /* AutoCompleteTextField.mm */,
+			);
+			path = AutoComplete;
+			sourceTree = "<group>";
+		};
+		30088D4F1C180E41002D4C85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30088D501C180E41002D4C85 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30088D481C180E41002D4C85 /* AutoComplete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30088D5A1C180E41002D4C85 /* Build configuration list for PBXNativeTarget "AutoComplete" */;
+			buildPhases = (
+				30088D451C180E41002D4C85 /* Sources */,
+				30088D461C180E41002D4C85 /* Frameworks */,
+				30088D471C180E41002D4C85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoComplete;
+			productName = AutoComplete;
+			productReference = 30088D491C180E41002D4C85 /* AutoComplete.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30088D411C180E41002D4C85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Sheen;
+				TargetAttributes = {
+					30088D481C180E41002D4C85 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 30088D441C180E41002D4C85 /* Build configuration list for PBXProject "AutoComplete" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30088D401C180E41002D4C85;
+			productRefGroup = 30088D4A1C180E41002D4C85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30088D481C180E41002D4C85 /* AutoComplete */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30088D471C180E41002D4C85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30088D531C180E41002D4C85 /* Assets.xcassets in Resources */,
+				30088D561C180E41002D4C85 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30088D451C180E41002D4C85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30088D511C180E41002D4C85 /* main.m in Sources */,
+				30088D731C18427D002D4C85 /* AutoCompleteTextField.mm in Sources */,
+				30088D4E1C180E41002D4C85 /* AppDelegate.m in Sources */,
+				30088D5F1C180E6D002D4C85 /* AutoCompleter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30088D541C180E41002D4C85 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30088D551C180E41002D4C85 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30088D581C180E41002D4C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		30088D591C180E41002D4C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		30088D5B1C180E41002D4C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AutoComplete/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = one.com.AutoComplete;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		30088D5C1C180E41002D4C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AutoComplete/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = one.com.AutoComplete;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30088D441C180E41002D4C85 /* Build configuration list for PBXProject "AutoComplete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30088D581C180E41002D4C85 /* Debug */,
+				30088D591C180E41002D4C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30088D5A1C180E41002D4C85 /* Build configuration list for PBXNativeTarget "AutoComplete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30088D5B1C180E41002D4C85 /* Debug */,
+				30088D5C1C180E41002D4C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30088D411C180E41002D4C85 /* Project object */;
+}
