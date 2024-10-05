@@ -11,8 +11,8 @@
 		30088D511C180E41002D4C85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30088D501C180E41002D4C85 /* main.m */; };
 		30088D531C180E41002D4C85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30088D521C180E41002D4C85 /* Assets.xcassets */; };
 		30088D561C180E41002D4C85 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30088D541C180E41002D4C85 /* MainMenu.xib */; };
-		30088D5F1C180E6D002D4C85 /* AutoCompleter.m in Sources */ = {isa = PBXBuildFile; fileRef = 30088D5E1C180E6D002D4C85 /* AutoCompleter.m */; settings = {ASSET_TAGS = (); }; };
-		30088D731C18427D002D4C85 /* AutoCompleteTextField.mm in Sources */ = {isa = PBXBuildFile; fileRef = 30088D721C18427D002D4C85 /* AutoCompleteTextField.mm */; settings = {ASSET_TAGS = (); }; };
+		30088D5F1C180E6D002D4C85 /* AutoCompleter.m in Sources */ = {isa = PBXBuildFile; fileRef = 30088D5E1C180E6D002D4C85 /* AutoCompleter.m */; };
+		308020612CB0512B00F036BF /* AutoCompleteTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 308020602CB0512B00F036BF /* AutoCompleteTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +26,7 @@
 		30088D5D1C180E6D002D4C85 /* AutoCompleter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoCompleter.h; sourceTree = "<group>"; };
 		30088D5E1C180E6D002D4C85 /* AutoCompleter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoCompleter.m; sourceTree = "<group>"; };
 		30088D711C18427D002D4C85 /* AutoCompleteTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoCompleteTextField.h; sourceTree = "<group>"; };
-		30088D721C18427D002D4C85 /* AutoCompleteTextField.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AutoCompleteTextField.mm; sourceTree = "<group>"; };
+		308020602CB0512B00F036BF /* AutoCompleteTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoCompleteTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,7 @@
 				30088D5D1C180E6D002D4C85 /* AutoCompleter.h */,
 				30088D5E1C180E6D002D4C85 /* AutoCompleter.m */,
 				30088D711C18427D002D4C85 /* AutoCompleteTextField.h */,
-				30088D721C18427D002D4C85 /* AutoCompleteTextField.mm */,
+				308020602CB0512B00F036BF /* AutoCompleteTextField.m */,
 			);
 			path = AutoComplete;
 			sourceTree = "<group>";
@@ -120,6 +120,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -151,7 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30088D511C180E41002D4C85 /* main.m in Sources */,
-				30088D731C18427D002D4C85 /* AutoCompleteTextField.mm in Sources */,
+				308020612CB0512B00F036BF /* AutoCompleteTextField.m in Sources */,
 				30088D4E1C180E41002D4C85 /* AppDelegate.m in Sources */,
 				30088D5F1C180E6D002D4C85 /* AutoCompleter.m in Sources */,
 			);
